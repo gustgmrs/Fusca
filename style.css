@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@200&display=swap");
+
+/* Estilização Geral */
+body {
+  font-family: Arial;
+  margin: 0px;
+  background-color: #f7f7f7;
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+  margin-top: 60px;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* Estilização de Classes */
+
+.titulo-principal {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 38px;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.menu a {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 15px 20px;
+  color: #000;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.intro {
+  display: grid;
+  background: #fff;
+  gap: 20px;
+  place-self: center;
+  text-align: right;
+  padding: 40px;
+  position: relative;
+  align-content: center;
+  justify-items: end;
+}
+
+.intro h2 {
+  font-size: 30px;
+}
+
+.detalhe {
+  position: absolute;
+  background-color: #ee2211;
+  width: 60px;
+  height: 4px;
+  right: -30px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #ee2211;
+  color: #fff;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: Arial;
+  color: #c6c6c6;
+  font-size: 64px;
+  align-self: center;
+  text-align: right;
+  margin: 40px;
+}
+
+.vantagens {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 10px;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
